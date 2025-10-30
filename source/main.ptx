@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--********************************************************************
+Copyright 2019 Robert A. Beezer
+This file is part of PreTeXt.
+PreTeXt is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 or version 3 of the
+License (at your option).
+PreTeXt is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
+*********************************************************************-->
+<pretext>
+
+    <docinfo>
+        <macros>
+        \newcommand{\definiteintegral}[4]{\int_{#1}^{#2}\,#3\,d#4}
+        </macros>
+    </docinfo>
+
+    <slideshow>
+        <subtitle>Create Accessible and Engaging Materials with PreTeXt</subtitle>
+
+        <frontmatter>
+            <titlepage>
+                <author>
+                    <personname>Chrissy Safranski</personname>
+                    <institution>Franciscan University of Steubenville</institution>
+                </author>
+                <author>
+                    <personname>Oscar Levin</personname>
+                    <institution>University of Northern Colorado</institution>
+                </author>
+                <event>FIE 2025</event>
+                <date>November 2, 2025</date>
+            </titlepage>
+
+        </frontmatter>
+
+        <section>
+            <title>Motivation</title>
+
+            <slide>
+                <title>Why Use PreTeXt?</title>
+
+                <p><ol pause="yes">
+                    <li><p>"Write once, read anywhere."</p></li>
+                    <li><p>Accessible</p></li>
+                    <li><p>Text-based, open source</p></li>
+                    <li><p>Capable</p></li>
+                </ol></p>    
+            </slide>
+            <slide>
+                <title>Capable of what?</title>
+
+                <p><ol>
+                    <li><p>Traditional textbooks</p></li>
+                    <li><p>Slideshows</p></li>
+                    <li><p>Course notes</p></li>
+                    <li><p>Syllabus</p></li>
+                    <li><p>Worksheets</p></li>
+                    <li><p>Interactivity-focused textbooks</p></li>
+                    <li><p>And more!</p></li>
+                </ol></p>    
+            </slide>
+        </section>
+
+        <section>
+            <title>The Platform Affects What You Write</title>
+
+            <slide>
+                <title>Traditional style textbooks</title>
+                <p><ul>
+                    <li><p><booktitle>Engineering Statics: Open and Interactive</booktitle></p>
+                        <p>
+                            <url href="https://engineeringstatics.org/frontmatter.html">HTML</url>
+                        </p>
+                        <p>
+                            <url href="https://engineeringstatics.org/frontmatter.html">PDF</url>
+                        </p>
+                    </li>
+                    <li><p><url href="https://activecalculus.org/single2e/frontmatter.html">Active Calculus</url></p></li>
+                    <li><p><url href="https://opentext.uleth.ca/apex-calculus/apex-calculus.html">APEX Calculus</url></p></li>
+                    <li><p><url href="https://understandinglinearalgebra.org/frontmatter.html">Understanding Linear Algebra</url></p></li>
+                    <li><p><url href="https://runestone.academy/ns/books/published/Prototype_Experiments_for_Beginners/frontmatter.html?mode=browsing">Prototype Experiments for Beginners</url></p></li>
+                </ul></p>
+            </slide>
+
+            <slide>
+                <title>Slideshows</title>
+                <p><ul pause="yes">
+                    <li><p>This one!</p></li>
+                    <li><p>Demo from Mitch Keller</p>
+                        <p>
+                            <url href="https://math.mitchkeller.phd/slides-demo/slides-blank/slides.html">Blank for writing on</url>
+                        </p>
+                        <p>
+                            <url href="https://math.mitchkeller.phd/slides-demo/slides-annotated/slides-annotated.html">Annotated and accessible, for posting later</url>
+                        </p>
+                    </li>
+                </ul></p>
+            </slide>
+
+            <slide>
+                <title>Course Notes, Syllabus, Worksheets</title>
+                <p><ul>
+                    <li><p><url href="https://math.oscarlevin.com/math131-fall25/ch-course-notes.html">Oscar's Course Notes</url></p></li>
+                    <li><p><url href="https://math.oscarlevin.com/math131-fall25/syllabus.html">Oscar's Syllabus</url></p></li>
+                    <li><p><url href="https://math.oscarlevin.com/math131-fall25/sec-section-name.html">Some Worksheets by Oscar</url></p></li>
+                    <li><p><url href="https://runestone.academy/ns/books/published/Franciscan_matrixtheoryIsecA_F25/sec-consistency.html#ws-consistency">A Worksheet by Chrissy</url></p></li>
+                </ul></p>
+            </slide>
+
+            
+
+            <slide>
+                <title>Interactivity-focused textbooks</title>
+                <p><ul pause="yes">
+                    <li><p><url href="https://runestone.academy/ns/books/published/csawesome2/topic-1-1-intro-algorithms.html?mode=browsing">CSAwesome2</url></p></li>
+                    <li><p><booktitle>Welcome to Programming and Data Structures</booktitle></p>
+                        <p>
+                            <url href="https://runestone.academy/ns/books/published/welcomeprogramming/recursive-functions_recursive-stack-diagrams.html?mode=browsing#recursive-functions_recursive-stack-diagrams-ex-1">Codelens with questions</url>
+                        </p>
+                        <p>
+                            <url href="https://runestone.academy/ns/books/published/welcomeprogramming/variables-operators_exercises.html?mode=browsing#variables-operators_exercises-ex-1">Locked code in a code cell</url>
+                        </p>
+                        <p>
+                            <url href="https://runestone.academy/ns/books/published/welcomeprogramming/functions-testing_exercises.html?mode=browsing#functions-testing_exercises-ex-4">Locked code in a code cell, different test</url>
+                        </p>
+                    </li>
+                    <li><p><url href="https://runestone.academy/ns/books/published/foppff/fopp-ff-3.html?mode=browsing">Foundations of Python Programming</url></p></li>
+                </ul></p>
+            </slide>
+        </section>
+
+            <section>
+                <title>What will you create?</title>
+                <slide><title>What will you create?</title>
+                    <p>
+                        <nbsp></nbsp>
+                    </p>
+                    <p>
+                        <url href="https://pfi.mathtech.org" >pfi.mathtech.org</url>
+                    </p>
+                </slide>
+            </section>
+                
+
+            
+
+
+            
+
+
+            
+
+            
+
+            
+
+
+    </slideshow>
+</pretext>
