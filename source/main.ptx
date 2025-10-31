@@ -75,6 +75,7 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
             <slide>
                 <title>Traditional style textbooks</title>
                 <p><ul>
+                    <li><p><url href="https://runestone.academy/ns/books/published/Prototype_Experiments_for_Beginners/frontmatter.html?mode=browsing">Prototype Experiments for Beginners</url></p></li>
                     <li><p><booktitle>Engineering Statics: Open and Interactive</booktitle></p>
                         <p>
                             <url href="https://engineeringstatics.org/frontmatter.html">HTML</url>
@@ -86,7 +87,6 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
                     <li><p><url href="https://activecalculus.org/single2e/frontmatter.html">Active Calculus</url></p></li>
                     <li><p><url href="https://opentext.uleth.ca/apex-calculus/apex-calculus.html">APEX Calculus</url></p></li>
                     <li><p><url href="https://understandinglinearalgebra.org/frontmatter.html">Understanding Linear Algebra</url></p></li>
-                    <li><p><url href="https://runestone.academy/ns/books/published/Prototype_Experiments_for_Beginners/frontmatter.html?mode=browsing">Prototype Experiments for Beginners</url></p></li>
                 </ul></p>
             </slide>
 
@@ -120,19 +120,19 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
             <slide>
                 <title>Interactivity-focused textbooks</title>
                 <p><ul pause="yes">
+                    <li><p><url href="https://runestone.academy/ns/books/published/foppff/fopp-ff-3.html?mode=browsing">Foundations of Python Programming</url></p></li>
                     <li><p><url href="https://runestone.academy/ns/books/published/csawesome2/topic-1-1-intro-algorithms.html?mode=browsing">CSAwesome2</url></p></li>
                     <li><p><booktitle>Welcome to Programming and Data Structures</booktitle></p>
-                        <p>
-                            <url href="https://runestone.academy/ns/books/published/welcomeprogramming/recursive-functions_recursive-stack-diagrams.html?mode=browsing#recursive-functions_recursive-stack-diagrams-ex-1">Codelens with questions</url>
-                        </p>
                         <p>
                             <url href="https://runestone.academy/ns/books/published/welcomeprogramming/variables-operators_exercises.html?mode=browsing#variables-operators_exercises-ex-1">Locked code in a code cell</url>
                         </p>
                         <p>
                             <url href="https://runestone.academy/ns/books/published/welcomeprogramming/functions-testing_exercises.html?mode=browsing#functions-testing_exercises-ex-4">Locked code in a code cell, different test</url>
                         </p>
+                        <p>
+                            <url href="https://runestone.academy/ns/books/published/welcomeprogramming/recursive-functions_recursive-stack-diagrams.html?mode=browsing#recursive-functions_recursive-stack-diagrams-ex-1">Codelens with questions</url>
+                        </p>
                     </li>
-                    <li><p><url href="https://runestone.academy/ns/books/published/foppff/fopp-ff-3.html?mode=browsing">Foundations of Python Programming</url></p></li>
                 </ul></p>
             </slide>
         </section>
@@ -144,24 +144,9 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
                         <nbsp></nbsp>
                     </p>
                     <p>
-                        <url href="https://pfi.mathtech.org" >pfi.mathtech.org</url>
+                        <url href="https://pfi.mathtech.org">pfi.mathtech.org</url>
                     </p>
                 </slide>
             </section>
-                
-
-            
-
-
-            
-
-
-            
-
-            
-
-            
-
-
     </slideshow>
 </pretext>
