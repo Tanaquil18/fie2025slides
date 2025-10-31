@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2025-10-31T18:19:39Z       *-->
+<!--*   A recent stable commit (2022-07-01):   *-->
+<!--* 6c761d3dba23af92cba35001c852aac04ae99a5f *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html xmlns:pi="http://pretextbook.org/2020/pretext/internal">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reset.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/theme/serif.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/plugin/math/math.js"></script><style>
+ul {
+  display: block !important;
+}
+.reveal img {
+  border: 0.5px !important;
+  border-radius: 2px 10px 2px;
+  padding: 4px;
+}
+.reveal pre {
+  box-shadow: none;
+  line-height: 1;
+  font-size: inherit;
+  width: auto;
+  margin: inherit;
+}
+.reveal pre code {
+  display: block;
+  padding: 0;
+  overflow: unset;
+  max-height: unset;
+  word-wrap: normal;
+}
+.definition-like,.theorem-like,.project-like {
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 2px 10px 2px;
+  padding: 1%;
+  margin-bottom: var(--r-block-margin);
+}
+.definition-like {
+  background: #006080;
+  background: color-mix(in srgb, var(--r-background-color) 75%, #006080);
+}
+.theorem-like {
+  background: #ff000010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, #aa0000);
+}
+.proof-like {
+  background: #ffffff;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, #aaaaaa);
+}
+.project-like {
+  background: #60800010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, #608000);
+}
+.code-inline {
+  background: #60800010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, var(--r-link-color));
+  padding: 0 3px;
+  border: 1px solid;
+  margin: 3px;
+  display: inline-block;
+}
+.sagecell_sessionOutput {
+  background: white;
+  color: black;
+  border: 0.5px solid var(--r-main-color);
+}
+
+.program {
+  background: #60800010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, var(--r-link-color));
+  max-height: 450px;
+  overflow: auto;
+  border: 0.5px solid var(--r-main-color);
+}
+.ptx-sagecell, .reveal .program {
+  font-size: calc(var(--r-main-font-size) * 0.6);
+}
+
+
+.ptx-content :is(.image-box, .audio-box, .video-box, .asymptote-box) {
+  position: relative;
+}
+
+.ptx-content iframe.asymptote, .ptx-content iframe.asymptote, .ptx-content .video-box .video, .ptx-content .video-box .video-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+code[class*="language-"], pre[class*="language-"] {
+  padding: 0;
+  line-height: 1.2;
+}
+
+dfn {
+  font-weight: bold;
+}
+.ptx-content ol.no-marker,
+.ptx-content ul.no-marker,
+.ptx-content li.no-marker {
+    list-style-type: none;
+}
+
+.ptx-content ol.decimal {
+    list-style-type: decimal;
+}
+.ptx-content ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+.ptx-content ol.upper-alpha {
+    list-style-type: upper-alpha;
+}
+.ptx-content ol.lower-roman {
+    list-style-type: lower-roman;
+}
+.ptx-content ol.upper-roman {
+    list-style-type: upper-roman;
+}
+.ptx-content ul.disc {
+    list-style-type: disc;
+}
+.ptx-content ul.square {
+    list-style-type: square;
+}
+.ptx-content ul.circle {
+    list-style-type: circle;
+}
+.ptx-content ol.no-marker,
+.ptx-content ul.no-marker {
+    list-style-type: none;
+}
+.ptx-content .cols1 li,
+.ptx-content .cols2 li,
+.ptx-content .cols3 li,
+.ptx-content .cols4 li,
+.ptx-content .cols5 li,
+.ptx-content .cols6 li {
+    float: left;
+    padding-right:2em;
+}
+
+/* make small images full-width in #sidebyside */
+/* could improve with a .sidebyside class */
+div[style*="display:table-cell"] img {
+    width: 100%;
+}
+          </style>
+</head>
+<body><div class="reveal ptx-content">
+<div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\definiteintegral}[4]{\int_{#1}^{#2}\,#3\,d#4}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="slides">
+<section><section><h1></h1>
+<h2>Create Accessible and Engaging Materials with PreTeXt</h2>
+<table>
+<tr>
+<th align="center" style="border-bottom: 0px;">Chrissy Safranski</th>
+<th align="center" style="border-bottom: 0px;">Oscar Levin</th>
+</tr>
+<tr>
+<td align="center" style="border-bottom: 0px;">Franciscan University of Steubenville</td>
+<td align="center" style="border-bottom: 0px;">University of Northern Colorado</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</table>
+<h4>FIE 2025</h4>
+<h4><div class="date">November 2, 2025</div></h4></section></section><section><section><h1>Motivation</h1></section><section><h3>Why Use PreTeXt?</h3>
+<div align="left"><p><ol class="decimal" id="root-1-2-3-2-2-1">
+<li class="fragment"><p>"Write once, read anywhere."</p></li>
+<li class="fragment"><p>Accessible</p></li>
+<li class="fragment"><p>Text-based, open source</p></li>
+<li class="fragment"><p>Capable</p></li>
+</ol></p></div></section><section><h3>Capable of what?</h3>
+<div align="left"><p><ol class="decimal" id="root-1-2-3-3-2-1">
+<li><p>Traditional textbooks</p></li>
+<li><p>Slideshows</p></li>
+<li><p>Course notes</p></li>
+<li><p>Syllabus</p></li>
+<li><p>Worksheets</p></li>
+<li><p>Interactivity-focused textbooks</p></li>
+<li><p>And more!</p></li>
+</ol></p></div></section></section><section><section><h1>The Platform Affects What You Write</h1></section><section><h3>Traditional style textbooks</h3>
+<div align="left"><p><ul class="disc" id="root-1-2-4-2-2-1">
+<li><p><a class="external" href="https://runestone.academy/ns/books/published/Prototype_Experiments_for_Beginners/frontmatter.html?mode=browsing" target="_blank">Prototype Experiments for Beginners</a></p></li>
+<li>
+<p><span class="booktitle">Engineering Statics: Open and Interactive</span></p>
+<p><a class="external" href="https://engineeringstatics.org/frontmatter.html" target="_blank">HTML</a></p>
+<p><a class="external" href="https://engineeringstatics.org/frontmatter.html" target="_blank">PDF</a></p>
+</li>
+<li><p><a class="external" href="https://activecalculus.org/single2e/frontmatter.html" target="_blank">Active Calculus</a></p></li>
+<li><p><a class="external" href="https://opentext.uleth.ca/apex-calculus/apex-calculus.html" target="_blank">APEX Calculus</a></p></li>
+<li><p><a class="external" href="https://understandinglinearalgebra.org/frontmatter.html" target="_blank">Understanding Linear Algebra</a></p></li>
+</ul></p></div></section><section><h3>Slideshows</h3>
+<div align="left"><p><ul class="disc" id="root-1-2-4-3-2-1">
+<li class="fragment"><p>This one!</p></li>
+<li class="fragment">
+<p>Demo from Mitch Keller</p>
+<p><a class="external" href="https://math.mitchkeller.phd/slides-demo/slides-blank/slides.html" target="_blank">Blank for writing on</a></p>
+<p><a class="external" href="https://math.mitchkeller.phd/slides-demo/slides-annotated/slides-annotated.html" target="_blank">Annotated and accessible, for posting later</a></p>
+</li>
+</ul></p></div></section><section><h3>Course Notes, Syllabus, Worksheets</h3>
+<div align="left"><p><ul class="disc" id="root-1-2-4-4-2-1">
+<li><p><a class="external" href="https://math.oscarlevin.com/math131-fall25/ch-course-notes.html" target="_blank">Oscar’s Course Notes</a></p></li>
+<li><p><a class="external" href="https://math.oscarlevin.com/math131-fall25/syllabus.html" target="_blank">Oscar’s Syllabus</a></p></li>
+<li><p><a class="external" href="https://math.oscarlevin.com/math131-fall25/sec-section-name.html" target="_blank">Some Worksheets by Oscar</a></p></li>
+<li><p><a class="external" href="https://runestone.academy/ns/books/published/Franciscan_matrixtheoryIsecA_F25/sec-consistency.html#ws-consistency" target="_blank">A Worksheet by Chrissy</a></p></li>
+</ul></p></div></section><section><h3>Interactivity-focused textbooks</h3>
+<div align="left"><p><ul class="disc" id="root-1-2-4-5-2-1">
+<li class="fragment"><p><a class="external" href="https://runestone.academy/ns/books/published/foppff/fopp-ff-3.html?mode=browsing" target="_blank">Foundations of Python Programming</a></p></li>
+<li class="fragment"><p><a class="external" href="https://runestone.academy/ns/books/published/csawesome2/topic-1-1-intro-algorithms.html?mode=browsing" target="_blank">CSAwesome2</a></p></li>
+<li class="fragment">
+<p><span class="booktitle">Welcome to Programming and Data Structures</span></p>
+<p><a class="external" href="https://runestone.academy/ns/books/published/welcomeprogramming/variables-operators_exercises.html?mode=browsing#variables-operators_exercises-ex-1" target="_blank">Locked code in a code cell</a></p>
+<p><a class="external" href="https://runestone.academy/ns/books/published/welcomeprogramming/functions-testing_exercises.html?mode=browsing#functions-testing_exercises-ex-4" target="_blank">Locked code in a code cell, different test</a></p>
+<p><a class="external" href="https://runestone.academy/ns/books/published/welcomeprogramming/recursive-functions_recursive-stack-diagrams.html?mode=browsing#recursive-functions_recursive-stack-diagrams-ex-1" target="_blank">Codelens with questions</a></p>
+</li>
+</ul></p></div></section></section><section><section><h1>What will you create?</h1></section><section><h3>What will you create?</h3>
+<div align="left">
+<p> </p>
+<p><a class="external" href="https://pfi.mathtech.org" target="_blank">pfi.mathtech.org</a></p>
+</div></section></section>
+</div>
+</div></body>
+<script>
+Reveal.initialize({
+  controls: true,
+  controlsTutorial: true,
+  controlsLayout: 'bottom-right',
+  controlsBackArrows: 'faded',
+  navigationMode: 'default',
+  progress: false,
+  center: false,
+  hash: true,
+  transition: 'fade',
+  width: "100%",
+  height: "100%",
+  margin: "0.025",
+  math: {
+    mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+    config: 'TeX-AMS_HTML-full',
+    // other options are passed into MathJax.Hub.Config()
+    tex2jax: {
+      inlineMath:  [['\\(','\\)']],
+      displayMath: [],
+    }
+  },
+  plugins: [ RevealMath ]
+});
+</script>
+</html>
