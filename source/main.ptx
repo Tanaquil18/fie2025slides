@@ -81,7 +81,7 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
                             <url href="https://engineeringstatics.org/frontmatter.html">HTML</url>
                         </p>
                         <p>
-                            <url href="https://engineeringstatics.org/frontmatter.html">PDF</url>
+                            <url href="https://engineeringstatics.org/pdf/statics.pdf">PDF</url>
                         </p>
                     </li>
                     <li><p><url href="https://activecalculus.org/single2e/frontmatter.html">Active Calculus</url></p></li>
@@ -111,7 +111,7 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
                     <li><p><url href="https://math.oscarlevin.com/math131-fall25/ch-course-notes.html">Oscar's Course Notes</url></p></li>
                     <li><p><url href="https://math.oscarlevin.com/math131-fall25/syllabus.html">Oscar's Syllabus</url></p></li>
                     <li><p><url href="https://math.oscarlevin.com/math131-fall25/sec-section-name.html">Some Worksheets by Oscar</url></p></li>
-                    <li><p><url href="https://runestone.academy/ns/books/published/Franciscan_matrixtheoryIsecA_F25/sec-consistency.html#ws-consistency">A Worksheet by Chrissy</url></p></li>
+                    <li><p><url href="https://tanaquil18.github.io/matrixcalculations/sec-consistency.html#ws-consistency">A Worksheet by Chrissy</url></p></li>
                 </ul></p>
             </slide>
 
@@ -120,6 +120,7 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
             <slide>
                 <title>Interactivity-focused textbooks</title>
                 <p><ul pause="yes">
+                    <li><p><url href="https://discrete.openmathbooks.org/dmoi4/sec_seq_intro.html">Discrete Mathematics: An Open Introduction</url></p></li>
                     <li><p><url href="https://runestone.academy/ns/books/published/foppff/fopp-ff-3.html?mode=browsing">Foundations of Python Programming</url></p></li>
                     <li><p><url href="https://runestone.academy/ns/books/published/csawesome2/topic-1-1-intro-algorithms.html?mode=browsing">CSAwesome2</url></p></li>
                     <li><p><booktitle>Welcome to Programming and Data Structures</booktitle></p>
